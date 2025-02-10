@@ -2,6 +2,8 @@
 
 TDelete is a simple Telegram cleanup tool designed to delete conversations with deactivated users. It connects to Telegram via the provided API credentials and allows users to remove chats with deactivated accounts automatically. The tool also supports SOCKS5 proxies, making it suitable for use in restricted network environments.
 
+For the Chinese version of this README, please refer to [README-zh.md](README-zh.md).
+
 ## Features
 - Logs into your Telegram account using the provided API ID, API Hash, and phone number.
 - Supports SOCKS5 proxy configuration for network flexibility.
