@@ -1,42 +1,43 @@
-# TDelete - Telegram Account Cleaner
+# TDelete
 
-TDelete is a simple Telegram cleanup tool designed to delete conversations with deactivated users. It connects to Telegram via the provided API credentials and allows users to remove chats with deactivated accounts automatically. The tool also supports SOCKS5 proxies, making it suitable for use in restricted network environments.
-
-For the Chinese version of this README, please refer to [README-zh.md](README-zh.md).
+**TDelete** is a simple Telegram utility that helps users clean up their Telegram chats by automatically deleting conversations with deleted or inactive users.
 
 ## Features
-- Logs into your Telegram account using the provided API ID, API Hash, and phone number.
-- Supports SOCKS5 proxy configuration for network flexibility.
-- Automatically checks all dialogs and deletes those involving deactivated users.
-- Displays a real-time log of actions in a scrolling text box for easy tracking.
+- Automatically deletes conversations with deleted Telegram users.
+- Can be used with a SOCKS5 proxy for privacy and security.
 
-## Installation and Usage
+## How to Use
 
-### 1. Download the Executable
+1. **Run `TDelete.exe`**: Launch the program by running the `TDelete.exe` file.
 
-- Download the latest `TDelete.exe` from the **Releases** section of this repository.
-- No installation required! Simply download and run the `.exe` file.
-
-### 2. Run the Program
-
-1. Launch `TDelete.exe`.
-2. The GUI will open. Enter the following details:
-   - **API ID**: Your Telegram API ID.
-   - **API Hash**: Your Telegram API Hash.
+2. **Enter the Required Information**: A window will pop up, prompting you to input the following details:
+   - **API ID**: Your Telegram API ID (explained below).
+   - **API Hash**: Your Telegram API Hash (explained below).
    - **Phone Number**: The phone number associated with your Telegram account.
-   - **Proxy Address (optional)**: The SOCKS5 proxy address (if you're using a proxy).
-   - **Proxy Port (optional)**: The SOCKS5 proxy port.
+   - **Proxy Address (Optional)**: If you're using a proxy, enter the SOCKS5 proxy address.
+   - **Proxy Port (Optional)**: Enter the SOCKS5 proxy port number.
 
-3. Once all fields are filled, click **"Start Cleaning"** to begin the cleanup process.
-   - The tool will scan your Telegram dialogs and automatically delete conversations with deactivated users.
-   - The progress and log information will be displayed in real-time in the GUI.
+3. **Start the Cleaning Process**: After filling in all the fields, click the **"Start Cleaning"** button.
+   - The tool will scan your Telegram chats and automatically delete conversations with deleted users.
+   - Progress and log information will be displayed in real-time within the interface.
 
-## Notes
+## Getting API ID and API Hash
 
-- Please ensure that your Telegram account and provided API credentials are correct before running the program.
-- If you encounter issues with the proxy connection, double-check your proxy settings.
-- The program will scan all dialogs and remove conversations with deactivated users. This operation is irreversible, so please use it carefully.
+Before using this program, you need to obtain your **API ID** and **API Hash** from Telegram's developer platform. Here are the steps:
+
+1. Visit [Telegram Developer Platform](https://my.telegram.org/auth).
+2. Log in with your Telegram account.
+3. Click on **API Development Tools**, then click **Create New Application**.
+4. Fill in the application name and description, then click **Create application**.
+5. After successful creation, you will be provided with your **API ID** and **API Hash**. Copy these and enter them into the program.
+
+## Proxy Settings (Optional)
+
+If you wish to use a **SOCKS5 proxy** for privacy, you can enter your proxy details in the respective fields in the application.
+
+- **Proxy Address**: Enter the address of your SOCKS5 proxy server (e.g., `127.0.0.1`).
+- **Proxy Port**: Enter the proxy server port number (e.g., `10808`).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+TDelete is open-source and available under the MIT License. Feel free to fork or contribute to the project!
