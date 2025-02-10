@@ -1,6 +1,6 @@
 # TDelete
 
-For the Chinese version of this README, click [这里](./README.zh.md).
+For the Chinese version of this README, click [中文版本](./README-zh.md).
 
 **TDelete** is a simple Telegram utility that helps users clean up their Telegram chats by automatically deleting conversations with deleted or inactive users.
 
