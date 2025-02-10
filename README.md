@@ -1,6 +1,6 @@
 # TDelete
 
-For the Chinese version of this README, click [中文版本](README.zh.md).
+For the Chinese version of this README, click [这里](./README.zh.md).
 
 **TDelete** is a simple Telegram utility that helps users clean up their Telegram chats by automatically deleting conversations with deleted or inactive users.
 
@@ -35,4 +35,11 @@ Before using this program, you need to obtain your **API ID** and **API Hash** f
 
 ## Proxy Settings (Optional)
 
-If you wish to use a **SOCKS5 proxy** for privacy, you can enter your
+If you wish to use a **SOCKS5 proxy** for privacy, you can enter your proxy details in the respective fields in the application.
+
+- **Proxy Address**: Enter the address of your SOCKS5 proxy server (e.g., `127.0.0.1`).
+- **Proxy Port**: Enter the proxy server port number (e.g., `10808`).
+
+## License
+
+TDelete is open-source and available under the MIT License. Feel free to fork or contribute to the project!
